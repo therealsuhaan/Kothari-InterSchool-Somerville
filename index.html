@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stonewall University</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="universitystyle.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <a href="#"><img src="LOGOUniversity.PNG"></a>
+    </div>
+    <nav>
+        <div class="menu">
+            <a href="#registeration">Admissions</a>
+            <a href="events.html">Events</a>
+            <a href="#text2">News</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+    <div class="main">
+        <input type="text" name="Search" placeholder="Search...">
+        <button type="submit" value="Submit">SEARCH</button>
+    </div>
+    <section>
+        <img src="bg.jpg"id="bg">
+        <img src="moon.png"id="moon">
+        <img src="mountain.png"id="mountain">
+        <img src="road.png"id="road">
+        <h3 id="text">"WE RAISE STARS AND SHINE."</h3>
+    </section>
+    <script type="text/javascript">
+        bg = document.getElementById("bg");
+        moon = document.getElementById("moon");
+        mountain = document.getElementById("mountain");
+        road = document.getElementById("road");
+        text = document.getElementById("text"); 
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 0.15 + 'px';
+        })
+    </script>
+
+    <h2 id="text1">STONEWALL UNIVERSITY</h2> 
+    <h4 id="text2">LATEST NEWS</h4> 
+    <div class="container">
+        <div class="box">
+            <div id="img">
+                <img src="img1.PNG">
+            </div>
+            <div id="text3">
+                <a href="light.html">Seeing the Light: researchers develop new AI System using light to learn associatively</a>
+            </div>
+            <div id="text4">
+                <h7>29-July-2022</h7>
+            </div>
+        </div>
+        <div class="box">
+            <div id="img">
+                <img src="img3.PNG">
+            </div>
+            <div id="text3">
+                <a href="gaming.html">Gaming does not apper harmful to mental health, unless gamers can't stop- Stonewall University</a>
+            </div>
+            <div id="text4">
+                <h7>28-July-2022</h7>
+            </div>
+        </div>
+        <div class="box">
+            <div id="img">
+                <img src="img2.PNG">
+            </div>
+            <div id="text3">
+                <a href="NBA.html">Stonewall Professor; Noble Prize Winner; NBA Player</a>
+            </div>
+            <div id="text4">
+                <h7>27-July-2022</h7>
+            </div>
+        </div>
+    </div>
+    <h4 id="text5">FROM THE ALUMNUS</h4> 
+    <div class="container2">
+        <div class="box1">
+            <div id="img">
+                <img src="alumni.PNG">
+            </div>
+            <div id="text3">
+                <a href="alumnus.html">Conan O'Brien graduated from Stonewall in 1990. He used to write for a humor magazine. He now has his own late-night comedy show.</a>
+            </div>
+            <div id="text4">
+                <h7>Updated on 28-July-2022</h7>
+            </div>
+        </div>
+    </div>
+    <h2 id="text6">STUDY AT STONEWALL</h2> 
+
+    <div id="registeration" class="container3">
+        <div class="title">Registeration</div>
+        <form acion="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name:" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Age</span>
+                    <input type="text" placeholder="Enter your Age:" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Country Name</span>
+                    <input type="text" placeholder="Enter your Country Name:" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your Mobile Number (WITH COUNTRY CODE):" required>
+                </div>
+                <div class="edu-details">
+                    <input type="radio" name="edu" id="dot-1">
+                    <input type="radio" name="edu" id="dot-2">
+                    <input type="radio" name="edu" id="dot-3">
+                    <span class="edu-title">Select a Course:</span>
+                    <div class="category">
+                    <label for="dot-1">
+                      <span class="dot one"></span>
+                      <span class="edu">Undergraduate</span>
+                    </label>
+                    <label for="dot-2">
+                      <span class="dot two"></span>
+                      <span class="edu">Graduate</span>
+                    </label>
+                    <label for="dot-3">
+                      <span class="dot three"></span>
+                      <span class="edu">Continuing</span>
+                    </label>
+                    </div>
+                </div>
+                <div class="button1">
+                    <button type="reset" onclick='document.getElementById("text7").innerHTML="Submitted! You would get a call from us soon!"'><h2>Register</h2></button>
+                </div>
+                <div style="color: rgb(252, 6, 235); font-size: 30px; margin-top: 20px; margin-left: 30px;" id="text7"></div>
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="wrapper">
+    <h1>Our Reputated Teachers</h1>
+        <div class="team">
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="prof1.PNG">
+                </div>
+                <h3>Harry Maguire</h3>
+                <p class="role">Senior Professor</p>
+                <p>Dr. Harry Maguire is an "ex-Stonewoodtian". He always had a dream that he wanted to be a professor. He did his PhD in Physics and, is now a Senior Professor at Stonewood.</p>
+            </div>
+            <div class="team">
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="prof2.PNG">
+                    </div>
+                    <h3>Paul Singh</h3>
+                    <p class="role">Associate Professor</p>
+                    <p>Paul Singh is an IITian. He migrated from India to USA in 1999. He is now a successful Teacher in Stonewood. He is now 60 years old.</p>
+                </div>
+            </div>
+            <div class="team">
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="prof3.PNG">
+                    </div>
+                    <h3>Marry Milane</h3>
+                    <p class="role">Assistant Professor</p>
+                    <p>Marry Milae got her education from MIT. She did her PhD in Computer Science. She is proud to teach at Stonewood University. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="text8">GALLERY: CAMPUS TOUR</h2> 
+    <div id="slider">
+        <figure>
+            <img src="SLIDER1.PNG">
+            <img src="SLIDER2.PNG">
+            <img src="SLIDER3.PNG">
+            <img src="SLIDER4.PNG">
+        </figure>
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+        <h7 id="text9">Copyrights Reserved to StoneWood University (Suhaan Aneja-KOTHARI)</h7>
+    </footer>
+</body>
+</html>
